@@ -1,0 +1,72 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+.col-7 h1{
+	color: #e5e5e5;
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
+	display: inline-block;
+		margin-top: 35px;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	font-weight: 500;
+	background: linear-gradient(currentColor 0 0) 
+	bottom /var(--d, 0) 3px no-repeat;
+	transition:0.5s;
+	}
+
+li a:hover{
+	--d: 100%;
+}
+
+ul ul{
+	display: none;
+
+}
+
+.per_office:hover ~ .invis{
+	display: block;
+}
+
+.invis:hover{
+	display: block;
+}
+
+ul ul{
+	list-style-image: url(dot20.png);
+}
+
+.col-5{
+padding-top: 15px;
+}
+
+.home{
+	list-style-image: url(home32.png);
+}
+
+.info{
+	list-style-image: url(inf32.png);
+}
+
+.per_office{
+	list-style-image: url(man32.png);
+}
+
+*{
+	background-color: #111111;
+}
+
+.carousel img{
+	height: 250px;
+	object-fit: contain;
+}
+
+.tittlecarousel{
+	text-align: center;
+	color: #e5e5e5;
+}
